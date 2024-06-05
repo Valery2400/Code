@@ -1,6 +1,4 @@
-package lesson_39.code.practice;
-
-import java.awt.*;
+package lesson_39.code.test;
 
 public interface NumberElement {
     int checkNumber(int number, int [] array);
