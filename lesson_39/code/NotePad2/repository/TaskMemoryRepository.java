@@ -1,7 +1,7 @@
 package lesson_39.code.NotePad2.repository;
 
 
-import code.NotePad2.entity.Task;
+import lesson_39.code.NotePad2.entity.Task;
 
 import java.util.ArrayList;
 import java.util.List;

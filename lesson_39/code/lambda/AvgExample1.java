@@ -1,6 +1,6 @@
 package lesson_39.code.lambda;
 
-import code.lambda.interfaces.IAverage;
+import lesson_39.code.lambda.interfaces.IAverage;
 
 public class AvgExample1 {
     public static void main(String[] args) {

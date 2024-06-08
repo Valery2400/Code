@@ -1,8 +1,8 @@
 package lesson_39.code.NotePad2.service;
 
 
-import code.NotePad2.entity.Task;
-import code.NotePad2.repository.InMemoryRepository;
+import lesson_39.code.NotePad2.entity.Task;
+import lesson_39.code.NotePad2.repository.InMemoryRepository;
 
 import java.util.Optional;
 

@@ -1,10 +1,12 @@
 package lesson_39.code.NotePad2;
 
-import code.NotePad2.repository.InMemoryRepository;
-import code.NotePad2.repository.TaskMemoryRepository;
-import code.NotePad2.service.*;
-import code.NotePad2.service.validation.ValidationService;
-import code.NotePad2.ui.UserMenu;
+import lesson_39.code.NotePad2.repository.InMemoryRepository;
+import lesson_39.code.NotePad2.repository.TaskMemoryRepository;
+import lesson_39.code.NotePad2.service.TaskServiceAdd;
+import lesson_39.code.NotePad2.service.TaskServiceDelete;
+import lesson_39.code.NotePad2.service.TaskServiceFind;
+import lesson_39.code.NotePad2.service.validation.ValidationService;
+import lesson_39.code.NotePad2.ui.UserMenu;
 
 public class App {
     public static void main(String[] args) {

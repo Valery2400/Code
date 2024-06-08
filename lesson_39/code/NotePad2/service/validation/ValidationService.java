@@ -1,7 +1,7 @@
 package lesson_39.code.NotePad2.service.validation;
 
 
-import code.NotePad2.dto.ClientRequest;
+import lesson_39.code.NotePad2.dto.ClientRequest;
 
 import java.util.ArrayList;
 import java.util.List;

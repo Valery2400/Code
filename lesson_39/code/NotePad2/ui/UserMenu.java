@@ -1,9 +1,9 @@
 package lesson_39.code.NotePad2.ui;
 
-import code.NotePad2.service.TaskServiceAdd;
-import code.NotePad2.service.TaskServiceDelete;
-import code.NotePad2.service.TaskServiceFind;
-import code.NotePad2.service.UserInput;
+import lesson_39.code.NotePad2.service.TaskServiceAdd;
+import lesson_39.code.NotePad2.service.TaskServiceDelete;
+import lesson_39.code.NotePad2.service.TaskServiceFind;
+import lesson_39.code.NotePad2.service.UserInput;
 
 public class UserMenu {
     private final TaskServiceAdd serviceAdd;

@@ -1,11 +1,11 @@
 package lesson_39.code.NotePad2.service;
 
 
-import code.NotePad2.dto.ClientRequest;
-import code.NotePad2.dto.ClientResponse;
-import code.NotePad2.entity.Task;
-import code.NotePad2.repository.InMemoryRepository;
-import code.NotePad2.service.validation.ValidationService;
+import lesson_39.code.NotePad2.dto.ClientRequest;
+import lesson_39.code.NotePad2.dto.ClientResponse;
+import lesson_39.code.NotePad2.entity.Task;
+import lesson_39.code.NotePad2.repository.InMemoryRepository;
+import lesson_39.code.NotePad2.service.validation.ValidationService;
 
 import java.util.List;
 
