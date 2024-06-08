@@ -1,5 +1,7 @@
 package MiniProjectV2;
 
+import java.util.List;
+
 public class CarDealerDemo {
     public static void main(String[] args) {
         CarDealer dealer1= new CarDealer();
@@ -18,11 +20,26 @@ public class CarDealerDemo {
         dealer1.addCar(car5);
         dealer1.addCar(car6);
 
-        dealer1.updateCar("JTNBE40K509112825",38000,5.0);
-
-        car1.rateCar(5.0);
-
+        dealer1.editCar("JTNBE40K509112825",38000,5.0);
         dealer1.printAllCars();
+
+        car1.rateCar(4.8);
+
+        System.out.println("Cars sorted by year:");
+        dealer1.sortByYear().forEach(System.out::println);
+
+        dealer1.deleteCar("1HGFDGH3536546564");
+
+
+        System.out.println("Cars by brand 'Nissan':");
+        dealer1.printByBrand("nissan");
+
+        car6.rateCar(3.0);
+
+        System.out.println("Cars sorted by price:");
+        dealer1.sortByPrice().forEach(System.out::println);
+
+
 
     }
 }

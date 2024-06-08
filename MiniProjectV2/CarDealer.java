@@ -1,5 +1,6 @@
 package MiniProjectV2;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -20,7 +21,7 @@ public class CarDealer {
         stock.remove(vin);
     }
 
-    public void updateCar(String vin, Integer newPrice, Double newRating) {
+    public void editCar(String vin, Integer newPrice, Double newRating) {
         Car car = stock.get(vin);
         if (car != null) {
             car.setPrice(newPrice);
@@ -33,7 +34,39 @@ public class CarDealer {
                     .collect(Collectors.toList());
         }
 
-        public void printAllCars() {
+    public List<Car> searchByModel (String modelForSearch) {
+        return stock.values().stream()
+                .filter(car -> car.getModel().equalsIgnoreCase(modelForSearch))
+                .collect(Collectors.toList());
+    }
+    public List<Car> searchByYear (Integer yearForSearch) {
+        return stock.values().stream()
+                .filter(car -> car.getYear().equals(yearForSearch))
+                .collect(Collectors.toList());
+    }
+    public List<Car> sortByYear () {
+        return stock.values().stream()
+                .sorted(Comparator.comparingInt(Car::getYear))
+                .collect(Collectors.toList());
+    }
+
+    public List<Car> sortByPrice () {
+        return stock.values().stream()
+                .sorted(Comparator.comparingInt(Car::getPrice))
+                .collect(Collectors.toList());
+    }
+    public List<Car> sortByRate () {
+        return stock.values().stream()
+                .sorted(Comparator.comparingDouble(Car::getRating))
+                .collect(Collectors.toList());
+    }
+
+    public void printByBrand(String brandForPrint) {
+        searchByBrand(brandForPrint).forEach(System.out::println);
+    }
+
+
+    public void printAllCars() {
             stock.values().forEach(System.out::println);
     }
 }
