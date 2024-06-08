@@ -1,7 +1,5 @@
 package MiniProjectV2;
 
-import java.util.List;
-
 public class CarDealerDemo {
     public static void main(String[] args) {
         CarDealer dealer1= new CarDealer();
@@ -36,8 +34,13 @@ public class CarDealerDemo {
 
         car6.rateCar(3.0);
 
+
         System.out.println("Cars sorted by price:");
         dealer1.sortByPrice().forEach(System.out::println);
+
+        System.out.println("Cars sorted by rating:");
+        dealer1.sortByRate().forEach(System.out::println);
+
 
 
 
