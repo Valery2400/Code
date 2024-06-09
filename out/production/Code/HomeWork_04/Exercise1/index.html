@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa form</title>
+</head>
+<body>
+    <form class="green-background">
+    <form method="get" id="contact-form" >
+      
+        <div> 
+            <label for="login_">Логин
+                <input id="login_" type="login"  placeholder="Введи логин" required>
+            </label>
+            </div>
+            
+        <div>
+            <label for="password_">Пароль
+                <input id="password_" type="password" placeholder="Введи пароль" required >
+        </label>
+        </div>
+        
+        <div>
+            <label for="name_">ФИО
+                <input id="name_" type="name" placeholder="Введи свое имя полностью" required >
+            </label>
+            </div>
+            
+        <div>
+            Твой пол:
+            <div>
+                <input id="male" type="radio" name="sex" value="male">
+                <label for="male">мальчик</label>
+            </div>
+            <div>
+                <input id="female" type="radio" name="sex" value="female">
+                <label for="female">девочка</label>
+            </div>
+            
+       
+            <div>
+                <input type="date" name="birth-date" id="birth-date">
+                <label for="birth-date">Дата рождения</label>
+            </div>
+            <br>
+            <div>
+                О каком подарке ты мечтаешь? <br>
+                <textarea maxlength="100" name="text" id="" cols="50" rows="3"></textarea>
+            </div>
+               
+            <div>
+                Ты был послушным весь год?
+                <div>
+                    <input id="yes" type="radio" name="good_behavior" value="yes">
+                    <label for="yes">да</label>
+                </div>
+                <div>
+                    <input id="no" type="radio" name="good_behavior" value="no">
+                    <label for="no">нет</label>
+                </div>
+
+
+        </div>
+        <div>
+          <button type="submit"> Отправить </button>
+         </div>
+    </form>
+         </form>
+</body>
+</html>

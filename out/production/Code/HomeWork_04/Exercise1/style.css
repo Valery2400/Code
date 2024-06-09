@@ -1,0 +1,21 @@
+
+body { 
+    background-color: darkgreen;
+    margin: 10px 50px;
+    font-size: 28px; color: red; width: 700;
+      }
+
+    
+      
+    
+.green-background input[type="login"],
+.green-background input[type="password"],
+.green-background input[type="name"],
+.green-background input[type="date"],
+.green-background textarea {
+  background-color: darkgreen;
+  border-color: red;
+  font-size: 28px; color: red; width: 700;
+  padding: 5px; 
+  margin-bottom: 5px;
+}
