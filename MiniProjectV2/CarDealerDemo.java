@@ -29,8 +29,7 @@ public class CarDealerDemo {
         dealer1.deleteCar("1HGFDGH3536546564");
 
 
-        System.out.println("Cars by brand 'Nissan':");
-        dealer1.printByBrand("nissan");
+        dealer1.printByBrand("Toyota");
 
         car6.rateCar(3.0);
 
@@ -40,6 +39,8 @@ public class CarDealerDemo {
 
         System.out.println("Cars sorted by rating:");
         dealer1.sortByRate().forEach(System.out::println);
+
+        dealer1.printByBrand("Nissan");
 
 
 

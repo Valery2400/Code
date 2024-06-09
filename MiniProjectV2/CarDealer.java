@@ -62,6 +62,7 @@ public class CarDealer {
     }
 
     public void printByBrand(String brandForPrint) {
+        System.out.println("Cars by brand " + brandForPrint + " :");
         searchByBrand(brandForPrint).forEach(System.out::println);
     }
 
