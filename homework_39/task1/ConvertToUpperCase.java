@@ -7,7 +7,7 @@ public class ConvertToUpperCase {
         UpperCaseConverter converter = (input) -> input.toUpperCase();
 
 
-        String original = "Hello Valery";
+        String original = "Let me say smth in capital letter";
         String converted = converter.convert(original);
 
         System.out.println(original);
