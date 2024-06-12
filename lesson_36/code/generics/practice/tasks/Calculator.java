@@ -2,8 +2,8 @@ package lesson_36.code.generics.practice.tasks;
 
 public class Calculator <T extends Number, U extends Number>{
 
-private T number1;
-private U number2;
+private final T number1;
+private final U number2;
 
     public Calculator(T number1, U number2) {
         this.number1 = number1;

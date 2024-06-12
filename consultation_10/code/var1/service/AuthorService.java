@@ -1,7 +1,7 @@
 package consultation_10.code.var1.service;
 
-import code.var1.entity.Author;
-import code.var1.repository.AuthorRepository;
+import consultation_10.code.var1.entity.Author;
+import consultation_10.code.var1.repository.AuthorRepository;
 
 public class AuthorService {
 

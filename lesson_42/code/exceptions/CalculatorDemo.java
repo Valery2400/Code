@@ -1,7 +1,9 @@
 package lesson_42.code.exceptions;
 
-import code.library.var1.UserInput;
-import code.staticExample.exampl1.nonStatic.Calculator;
+import lesson_31.code.staticExample.exampl1.nonStatic.Calculator;
+
+
+import lesson_39.code.NotePad2.service.UserInput;
 
 public class CalculatorDemo {
     public static void main(String[] args) {

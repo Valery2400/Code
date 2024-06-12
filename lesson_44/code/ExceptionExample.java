@@ -1,7 +1,5 @@
 package lesson_44.code;
 
-import code.library.var1.UserInput;
-
 import java.util.Scanner;
 
 public class ExceptionExample {

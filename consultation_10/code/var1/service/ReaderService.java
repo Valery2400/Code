@@ -1,8 +1,8 @@
 package consultation_10.code.var1.service;
 
-import code.var1.entity.Book;
-import code.var1.entity.Reader;
-import code.var1.repository.ReaderRepository;
+import consultation_10.code.var1.entity.Book;
+import consultation_10.code.var1.entity.Reader;
+import consultation_10.code.var1.repository.ReaderRepository;
 
 import java.util.List;
 

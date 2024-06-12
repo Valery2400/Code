@@ -1,7 +1,7 @@
 package consultation_09.code.withCollections.service;
 
-import code.withCollections.entity.Book;
-import code.withCollections.repository.BookRepository;
+import consultation_09.code.withCollections.entity.Book;
+import consultation_09.code.withCollections.repository.BookRepository;
 
 import java.util.List;
 

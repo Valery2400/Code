@@ -1,10 +1,9 @@
 package consultation_09.code.withCollections.service;
 
-import code.withCollections.entity.Book;
-import code.withCollections.entity.BookAndReader;
-import code.withCollections.entity.Reader;
-import code.withCollections.repository.BookAndReaderRepository;
-import code.withCollections.repository.ReaderRepository;
+import consultation_09.code.withCollections.entity.Book;
+import consultation_09.code.withCollections.entity.BookAndReader;
+import consultation_09.code.withCollections.entity.Reader;
+import consultation_09.code.withCollections.repository.BookAndReaderRepository;
 
 import java.util.ArrayList;
 import java.util.List;

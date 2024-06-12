@@ -1,6 +1,6 @@
 package lesson_43.code.exceptions.userExceptions.validation;
 
-import code.library.var1.UserInput;
+import lesson_39.code.NotePad2.service.UserInput;
 
 public class ValidationExample {
     public static void main(String[] args) {

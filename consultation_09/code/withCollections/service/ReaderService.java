@@ -1,11 +1,7 @@
 package consultation_09.code.withCollections.service;
 
-import code.withCollections.entity.Book;
-import code.withCollections.entity.Reader;
-import code.withCollections.repository.BookRepository;
-import code.withCollections.repository.ReaderRepository;
-
-import java.util.List;
+import consultation_09.code.withCollections.entity.Reader;
+import consultation_09.code.withCollections.repository.ReaderRepository;
 
 public class ReaderService {
 

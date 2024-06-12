@@ -1,6 +1,6 @@
 package lesson_43.code.exceptions.practice.withExceptions;
 
-import code.library.var1.UserInput;
+import lesson_39.code.NotePad2.service.UserInput;
 
 import java.util.InputMismatchException;
 import java.util.List;

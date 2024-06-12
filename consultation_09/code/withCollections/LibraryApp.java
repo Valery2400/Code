@@ -1,14 +1,14 @@
 package consultation_09.code.withCollections;
 
-import code.withCollections.entity.Book;
-import code.withCollections.entity.BookAndReader;
-import code.withCollections.entity.Reader;
-import code.withCollections.repository.BookAndReaderRepository;
-import code.withCollections.repository.BookRepository;
-import code.withCollections.repository.ReaderRepository;
-import code.withCollections.service.BookAndReaderService;
-import code.withCollections.service.BookService;
-import code.withCollections.service.ReaderService;
+import consultation_09.code.withCollections.entity.Book;
+import consultation_09.code.withCollections.entity.BookAndReader;
+import consultation_09.code.withCollections.entity.Reader;
+import consultation_09.code.withCollections.repository.BookAndReaderRepository;
+import consultation_09.code.withCollections.repository.BookRepository;
+import consultation_09.code.withCollections.repository.ReaderRepository;
+import consultation_09.code.withCollections.service.BookAndReaderService;
+import consultation_09.code.withCollections.service.BookService;
+import consultation_09.code.withCollections.service.ReaderService;
 
 public class LibraryApp {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package lesson_42.code.exceptions;
 
-import code.library.var1.UserInput;
+import lesson_39.code.NotePad2.service.UserInput;
 
 public class Exception1WithTryCatch {
     public static void main(String[] args) {

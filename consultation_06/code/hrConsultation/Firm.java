@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Firm {
 
     String companyName;
-    code.hrConsultation.Person director;
+    Person director;
     Department[] departments;
 
     public Firm(String companyName, Person director, Department[] departments) {

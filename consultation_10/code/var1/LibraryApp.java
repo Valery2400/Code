@@ -1,12 +1,12 @@
 package consultation_10.code.var1;
 
-import code.var1.entity.Author;
-import code.var1.repository.AuthorRepository;
-import code.var1.repository.BookRepository;
-import code.var1.repository.ReaderRepository;
-import code.var1.service.AuthorService;
-import code.var1.service.BookService;
-import code.var1.service.ReaderService;
+import consultation_10.code.var1.entity.Author;
+import consultation_10.code.var1.repository.AuthorRepository;
+import consultation_10.code.var1.repository.BookRepository;
+import consultation_10.code.var1.repository.ReaderRepository;
+import consultation_10.code.var1.service.AuthorService;
+import consultation_10.code.var1.service.BookService;
+import consultation_10.code.var1.service.ReaderService;
 
 public class LibraryApp {
     public static void main(String[] args) {

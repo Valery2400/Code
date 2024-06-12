@@ -1,0 +1,22 @@
+package lesson_36.code.generics.practice.tasks;
+
+class GenericCalculator1<T extends Number, U extends Number> {
+
+
+    public Double add(T a, U b) {
+        return a.doubleValue() + b.doubleValue();
+    }
+
+    public Double subtract(T a, T b) {
+        return a.doubleValue() - b.doubleValue();
+    }
+
+     public Double multiply(T a, T b) {
+        return a.doubleValue() * b.doubleValue();
+    }
+
+    public Double divide(T a, T b) {
+        return a.doubleValue() / b.doubleValue();
+    }
+
+}

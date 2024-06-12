@@ -1,7 +1,7 @@
 package consultation_10.code.var1.repository;
 
-import code.var1.entity.Author;
-import code.var1.entity.Book;
+import consultation_10.code.var1.entity.Author;
+import consultation_10.code.var1.entity.Book;
 
 import java.util.ArrayList;
 import java.util.List;
