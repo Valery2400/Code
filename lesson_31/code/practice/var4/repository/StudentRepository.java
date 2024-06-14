@@ -1,7 +1,7 @@
 package lesson_31.code.practice.var4.repository;
 
-import code.practice.var4.entity.Group;
-import code.practice.var4.entity.Student;
+import lesson_31.code.practice.var4.entity.Group;
+import lesson_31.code.practice.var4.entity.Student;
 
 import java.util.ArrayList;
 import java.util.List;

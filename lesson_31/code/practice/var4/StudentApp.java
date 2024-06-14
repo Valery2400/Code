@@ -1,10 +1,10 @@
 package lesson_31.code.practice.var4;
 
-import code.practice.var4.entity.Student;
-import code.practice.var4.repository.GroupRepository;
-import code.practice.var4.repository.StudentRepository;
-import code.practice.var4.service.GroupService;
-import code.practice.var4.service.StudentService;
+import lesson_31.code.practice.var4.entity.Student;
+import lesson_31.code.practice.var4.repository.GroupRepository;
+import lesson_31.code.practice.var4.repository.StudentRepository;
+import lesson_31.code.practice.var4.service.GroupService;
+import lesson_31.code.practice.var4.service.StudentService;
 
 public class StudentApp {
     public static void main(String[] args) {

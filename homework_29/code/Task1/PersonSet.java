@@ -1,7 +1,5 @@
 package homework_29.code.Task1;
 
-
-
 import java.util.Set;
 import java.util.TreeSet;
 

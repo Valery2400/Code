@@ -17,13 +17,13 @@ public class MatchExample {
 
          */
 
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("basic_programming/lesson_44/code/resources/matches.txt"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("lesson_44/code/resources/matches.txt"));
         String line;
 
         List<Match> matches = new ArrayList<>();
 
         while ((line = bufferedReader.readLine()) != null) {
-            //System.out.println(line);
+            System.out.println(line);
             matches.add(createRecord(line));
         }
 

@@ -4,7 +4,7 @@ import java.io.*;
 
 public class WriteAndReadBuffer {
     public static void main(String[] args) throws IOException {
-        String path = "basic_programming/lesson_44/code/resources/fileWriteBufferedDemo.txt";
+        String path = "lesson_44/code/resources/fileWriteBufferedDemo.txt";
         writeBufferFile(path);
         readBufferFile(path);
     }
@@ -23,7 +23,7 @@ public class WriteAndReadBuffer {
     public static void readBufferFile(String path) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
 
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("basic_programming/lesson_44/code/resources/fileWriteBufferedDemoCopy.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("lesson_44/code/resources/fileWriteBufferedDemoCopy.txt"));
 
         String line;
 

@@ -1,4 +1,4 @@
-package code.Task3;
+package homework_29.code.Task3;
 //Создайте коллекцию уникальных элементов класса Phone { String producer, String model}
 //добавьте несколько элементов. Убедитесь что отсутствуют дубликаты.
 

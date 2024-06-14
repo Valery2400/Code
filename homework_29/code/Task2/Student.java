@@ -1,4 +1,4 @@
-package code.Task2;
+package homework_29.code.Task2;
 //Дан класс Student
 //Student {
 //int roll; String name; }

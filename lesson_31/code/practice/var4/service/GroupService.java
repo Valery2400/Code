@@ -1,8 +1,8 @@
 package lesson_31.code.practice.var4.service;
 
-import code.practice.var4.entity.Group;
-import code.practice.var4.entity.Student;
-import code.practice.var4.repository.GroupRepository;
+import lesson_31.code.practice.var4.entity.Group;
+import lesson_31.code.practice.var4.entity.Student;
+import lesson_31.code.practice.var4.repository.GroupRepository;
 
 import java.util.List;
 
