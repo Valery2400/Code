@@ -1,6 +1,6 @@
 package lesson_45.code.junit.src.test.java;
 
-import code.junit.src.main.java.TaxCalculator;
+import lesson_45.code.junit.src.main.java.TaxCalculator;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

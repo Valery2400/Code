@@ -1,6 +1,6 @@
 package lesson_45.code.junit.src.test.java;
 
-import code.junit.src.main.java.Calculator;
+import lesson_45.code.junit.src.main.java.Calculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
